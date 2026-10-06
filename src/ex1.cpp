@@ -12,6 +12,7 @@ const int seqLen = 6;
 
 int step = 0;
 
+
 void setup() {
   Serial.begin(115200);
   for (int i = 0; i < ledCount; i++) pinMode(leds[i], OUTPUT);
